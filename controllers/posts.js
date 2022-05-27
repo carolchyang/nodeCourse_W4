@@ -20,7 +20,8 @@ const posts = {
                 "photo": "https://reurl.cc/x93aR4"
               },
               "image": "https://reurl.cc/x93aR4",
-              "content": "貼文內容"
+              "content": "貼文內容",
+              "createdAt": "2022-05-27T21:23:27.241Z"
             }
           ]
         }

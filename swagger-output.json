@@ -83,6 +83,10 @@
                       "content": {
                         "type": "string",
                         "example": "貼文內容"
+                      },
+                      "createdAt": {
+                        "type": "string",
+                        "example": "2022-05-27T21:23:27.241Z"
                       }
                     }
                   }
