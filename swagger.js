@@ -3,7 +3,7 @@ const swaggerAutogen = require("swagger-autogen")();
 const doc = {
   info: {
     title: "Meta API",
-    description: "示範範例生成文件",
+    description: "Node 直播班 - W4",
   },
   host: "https://thawing-woodland-76538.herokuapp.com/",
   schemes: ["http", "https"],
