@@ -5,7 +5,7 @@ const doc = {
     title: "Meta API",
     description: "Node 直播班 - W4",
   },
-  host: "https://thawing-woodland-76538.herokuapp.com/",
+  host: "https://thawing-woodland-76538.herokuapp.com",
   schemes: ["http", "https"],
 };
 
