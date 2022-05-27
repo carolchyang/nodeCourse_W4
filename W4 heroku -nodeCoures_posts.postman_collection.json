@@ -1,0 +1,69 @@
+{
+	"info": {
+		"_postman_id": "74c94a5e-f70c-421f-9a2c-3e5498803862",
+		"name": "W4 heroku -nodeCoures_posts",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "9557023"
+	},
+	"item": [
+		{
+			"name": "取得所有貼文",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://thawing-woodland-76538.herokuapp.com/posts?sort=asc&q=1",
+					"protocol": "https",
+					"host": [
+						"thawing-woodland-76538",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"posts"
+					],
+					"query": [
+						{
+							"key": "sort",
+							"value": "asc"
+						},
+						{
+							"key": "q",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "新增貼文",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"content\": \"我今天很高興\",\r\n    \"image\": \"https://images.unsplash.com/photo-1618988727281-8d54f5d32932?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1177&q=80\",\r\n    \"user\": \"629109c447b0a4ded7be6d12\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://thawing-woodland-76538.herokuapp.com/post",
+					"protocol": "https",
+					"host": [
+						"thawing-woodland-76538",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"post"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
